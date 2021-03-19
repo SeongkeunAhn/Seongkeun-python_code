@@ -7,3 +7,14 @@ def solution(phone_book):
         if a == b[:len(a)]:
             answer = False
     return answer
+
+#%% 프로그래머스 해시 완주
+def solution(participant, completion):
+    participant.sort()
+    completion.sort()
+    for p,c in zip(participant,completion):
+        if p != c:
+            return p
+    return participant[-1]
+
+#%%
