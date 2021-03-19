@@ -1,4 +1,5 @@
 #프로그래머스 해시 전화번호목록
+
 from itertools import combinations as c
 def solution(phone_book):
     answer = True
@@ -9,6 +10,7 @@ def solution(phone_book):
     return answer
 
 #%% 프로그래머스 해시 완주
+
 def solution(participant, completion):
     participant.sort()
     completion.sort()
